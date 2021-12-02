@@ -1,5 +1,7 @@
 
-set terminal png size 1000,500
+set terminal
+set output "error.png"
+
 
 set grid
 set logscale y

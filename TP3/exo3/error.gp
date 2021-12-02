@@ -1,5 +1,6 @@
 
-set terminal png size 1000,500
+set term png
+set output "error.png"
 
 set grid
 
