@@ -36,7 +36,7 @@ mclose(fdce)
 
 fd = mopen("time.dat", "wt")
 
-for n = 1:100
+for n = 1:1000
 
 A = rand(n, n)
 xex = rand(n, 1)
