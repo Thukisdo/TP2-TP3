@@ -9,4 +9,4 @@ set ylabel "Time"
 
 set xlabel "Matrix size (x*x)"
 
-plot "lu3b_speed.dat" w l t "myLu", "scilu_speed.dat" w l t "Scilab lu"
+plot "lu3b_speed.dat" w l t "myLu", "scilu_speed.dat" w l t "Scilab lu", "npvlu_speed.dat" w l t "Non-pivoting lu"

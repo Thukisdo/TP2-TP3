@@ -1,5 +1,5 @@
 
-set terminal
+set terminal png
 set output "error.png"
 
 
@@ -10,4 +10,4 @@ set ylabel "Error"
 
 set xlabel "Matrix size (x*x)"
 
-plot "lu3b_error.dat" w l t "Lu error", "scilu_error.dat" w l t "Scilab lu error"
+plot "lu3b_error.dat" w l t "Lu error", "scilu_error.dat" w l t "Scilab lu error", "npvlu_error.dat" w l t "Non-pivoting lu error"
